@@ -39,33 +39,6 @@ body {
     font-weight: 600;
 }
 
-/* Map styles */
-#disasterMap {
-    height: 500px;
-    border-radius: 0 0 10px 10px;
-    z-index: 1;
-}
-
-.map-loading-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255,255,255,0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-}
-
-.map-controls {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-}
 
 /* Feed items */
 .alert-item, .news-item, .social-item {
@@ -120,25 +93,7 @@ body {
 }
 
 /* Chart styles */
-.chart-container {
-    position: relative;
-    height: 200px;
-}
-
-/* Footer styles */
-footer {
-    margin-top: auto;
-}
-
-footer h5 {
-    font-weight: 600;
-}
-
-/* Loading animations */
-@keyframes pulse {
-    0% { opacity: 0.6; }
-    50% { opacity: 1; }
-    100% { opacity: 0.6; }
+.
 }
 
 .loading-pulse {
